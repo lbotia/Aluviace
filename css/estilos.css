@@ -7,7 +7,7 @@ body {
   color: #111111; }
 
 .bienvenidos {
-  background: url("../images/fondo-encabezado.jpg") no-repeat center top;
+  background: url("../images/fondo-encabezado-grande.jpg") no-repeat center top;
   color: #fff;
   background-size: cover;
   background-attachment: fixed !important;
