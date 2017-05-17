@@ -362,7 +362,7 @@ SECCION PIE DE PAGINA
 
 .piedepagina .redes-sociales a {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0 .5rem;
   opacity: .7;
   -webkit-transition: all .5s ease;
@@ -370,6 +370,7 @@ SECCION PIE DE PAGINA
 
 .piedepagina .redes-sociales a:hover {
   opacity: 1; }
+  
 
 .ir-arriba {
   position: fixed;
