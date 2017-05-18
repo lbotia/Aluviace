@@ -22,6 +22,67 @@ body {
       -ms-flex-direction: column;
           flex-direction: column; }
 
+/*!
+ * Start Bootstrap - Full Slider (http://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+
+
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+
+
+
+html, 
+body, 
+.carousel, 
+.carousel-inner, 
+.carousel-inner .item {
+    height: 100%;
+}
+
+.item:nth-child(1) {
+    background: #74C390;
+}
+
+.item:nth-child(2) {
+    background: #51BCE8;
+}
+
+.item:nth-child(3) {
+    background: #E46653;
+}
+
 .encabezado {
   background: #111111;
   color: #fff;
@@ -362,7 +423,7 @@ SECCION PIE DE PAGINA
 
 .piedepagina .redes-sociales a {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0 .5rem;
   opacity: .7;
   -webkit-transition: all .5s ease;
@@ -370,6 +431,7 @@ SECCION PIE DE PAGINA
 
 .piedepagina .redes-sociales a:hover {
   opacity: 1; }
+  
 
 .ir-arriba {
   position: fixed;
