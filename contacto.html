@@ -89,13 +89,13 @@
                     <h2 class="m-b-2">Formulario de contacto</h2>
 
 
-                    <form action="#">
+                    <form action="https://formspree.io/rmaluviace@gmail.com" method="POST">
 
                         <div class="form-group row">
                             <label for="nombre" class="col-md-4 col-form-label">Nombre</label>
 
                             <div class="col-md-8">
-                                <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" data-toggle="tooltip" data-placement="top"
+                                <input required class="form-control" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" data-toggle="tooltip" data-placement="top"
                                     title="Ingrese su nombre completo">
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                             <label for="email" class="col-md-4 col-form-label">Email</label>
 
                             <div class="col-md-8">
-                                <input class="form-control" type="text" id="email" name="email" placeholder="Ingrese su email" data-toggle="tooltip" data-placement="top"
+                                <input required class="form-control" type="text" id="email" name="email" placeholder="Ingrese su email" data-toggle="tooltip" data-placement="top"
                                     title="Ingrese su email">
                             </div>
                         </div>
@@ -115,7 +115,7 @@
                             <label for="mensaje" class="col-md-4 col-form-label">Mensaje</label>
 
                             <div class="col-md-8">
-                                <textarea class="form-control" rows="5" id="mensaje" name="mensaje" placeholder="Ingrese su mensaje" data-toggle="tooltip"
+                                <textarea required class="form-control" rows="5" id="mensaje" name="mensaje" placeholder="Ingrese su mensaje" data-toggle="tooltip"
                                     data-placement="top" title="Ingrese un mensaje"></textarea>
 
                             </div>
