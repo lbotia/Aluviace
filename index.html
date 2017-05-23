@@ -7,14 +7,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="shortcut icon" type="image/x-icon" href="aluviace.ico">
+    <link href="../Aluviace/images/aluviace.ico" rel="shortcut icon" type="image/x-icon" />
 
     <!-- Cargando fuentes -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic' rel='stylesheet' type='text/css'>
 
     <!-- Cargando iconos -->
-    <link href='css/font-awesome.css' rel='stylesheet' type='text/css'>
-
+    <!--<link href='css/font-awesome.css' rel='stylesheet' type='text/css'>-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Carga de Galeria de imágenes -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
 
@@ -63,6 +63,7 @@
         <div class="texto-encabezado text-xs-center">
 
             <div class="container">
+                    <!--<img src="images/logo_Alu.png" alt="">-->
                 <h1 class="display-4 wow bounceIn">Vidrios y Aluminios</h1>
                 <p class="wow bounceIn" data-wow-delay=".3s">Contamos con un amplio portafolio de productos y servicios, enfocado en las necesidades del mercado, innovando
                     constantemente y ofreciendo precios competitivos.</p>
@@ -108,7 +109,7 @@
 -->
 
             <div class="row">
-                <ul class="col-xs-6 col-lg-6 text-lg-right">
+                <ul class="col-xs-12 col-lg-6 text-lg-right">
                     <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".3s">
                        <i class="fa fa-handshake-o" aria-hidden="true"></i>
 
@@ -301,14 +302,7 @@
                     <img src="images/incio5.jpg" alt="App Clima Perú">
                 </a>
 
-               
-               
-
-
-
-
-
-
+              
 
             </div>
         </div>
@@ -317,7 +311,7 @@
 
             <h2 class="text-xs-center font-weight-bold">Donde nos encuentras?</h2>
 
-            <div class="card card-outline-secondary mb-2">
+            <div class="overlay card card-outline-secondary mb-2">
                 <div class="card-block" style="height: 18rem;" id="map">
                 </div>
             </div>
@@ -385,7 +379,7 @@
         function initMap() {
             var uluru = { lat: 4.739987, lng: -74.040162 };
             var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 15,
+                zoom: 16,
                 center: uluru
             });
             var marker = new google.maps.Marker({
@@ -400,6 +394,8 @@
     <script src="js/wow.min.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
     <script src="js/sitio.js"></script>
+
+    
 
 
 

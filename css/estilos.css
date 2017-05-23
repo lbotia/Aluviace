@@ -360,6 +360,10 @@ SECCION SERVICIOS
   opacity: 1;
   color: #12AFAF; }
 
+.overlay {
+  pointer-events: none;
+}
+
 /*---------------------------------
 SECCION ├ÜLTIMOS PROYECTOS
 ------------------------------------*/
